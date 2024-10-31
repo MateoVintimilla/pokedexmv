@@ -1,0 +1,26 @@
+<div class="pokedex-view">
+    <div class="pokedex-header">
+        <div class="red-dots">
+            <div class="red-dot"></div>
+            <div class="yellow-dot"></div>
+            <div class="green-dot"></div>
+        </div>
+        <!-- Aquí podrías añadir otros elementos si es necesario -->
+    </div>
+    
+    <div class="pokemon">
+        <app-pokemon [solicitarImagen]="pokemonImagen"
+        (clickPokemon)="handlePokemon($event)">
+        </app-pokemon>
+    </div>
+
+    <div class="graf">
+         <app-graf></app-graf>
+    </div>
+
+    <div class="controls">
+        <div class="control-button"></div>
+        <div class="control-button"></div>
+        <div class="control-button"></div>
+    </div>
+</div>

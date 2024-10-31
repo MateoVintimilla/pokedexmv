@@ -1,0 +1,28 @@
+.health-container {
+    display: flex;
+    justify-content: space-between; /* Esto lleva los elementos a los extremos */
+    align-items: center;
+    width: 100%; /* Asegura que el contenedor ocupe todo el ancho */
+    margin-top: 35px;
+    padding: 0 10px; /* Agrega algo de espacio en los extremos */
+}
+
+.health-bar {
+    width: 10   0px; /* Agrega algo de espacio en los extremos */
+  
+}
+
+.flecha {
+    font-size: 14px; /* Tamaño de la flecha */
+    color: #090909; /* Color de la flecha */
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 3px 3px 5px rgba(6, 6, 6, 0.3);
+}
+
+.flecha:hover {
+    background-color: #6e6e6e; /* Color más oscuro al pasar el ratón */
+}

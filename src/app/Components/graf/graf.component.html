@@ -1,0 +1,19 @@
+<div class="health-container">
+    <p>❤️</p>
+    <p>❤️</p>
+    <p>❤️</p>
+    <p>❤️</p>
+    <p>❤️</p>
+    <div class="stats-container">
+      <div>
+        <label for="ataque">Ataque:</label>
+        <input type="range" id="ataque" min="0" [max]="maxStat" [(ngModel)]="ataque">
+        <span>{{ ataque }}</span>
+      </div>
+      <div>
+        <label for="defensa">Defensa:</label>
+        <input type="range" id="defensa" min="0" [max]="maxStat" [(ngModel)]="defensa">
+        <span>{{ defensa }}</span>
+      </div>
+    </div>
+  </div>

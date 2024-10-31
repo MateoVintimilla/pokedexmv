@@ -1,0 +1,29 @@
+.health-container p {
+    display: inline-block;
+    margin: 0 5px; /* Espacio entre los corazones */
+    
+}
+
+.stats-container {
+    background-color: #720000; /* Fondo gris claro */
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px 0; /* Espacio superior e inferior */
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.2); /* Sombra */
+    font-size: 16px;
+}
+
+.stats-container p {
+    margin: 5px 0; /* Espacio entre cada estadística */
+    font-weight: bold;
+}
+
+/* Estilos para la barra de ataque y defensa */
+input[type="range"] {
+    width: 100%;
+    margin: 10px 0;
+}
+
+
+

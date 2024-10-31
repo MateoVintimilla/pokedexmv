@@ -1,0 +1,12 @@
+<img [src]="solicitarImagen" alt="Imagen del Pokémon">
+<div class="health-container">
+    <!-- Flecha izquierda para el Pokémon anterior -->
+    <div class="flecha cambiar-pokemon-btn" (click)="anteriorPokemon()">
+        &#9664; <!-- Símbolo de flecha izquierda -->
+    </div>
+    
+    <!-- Flecha derecha para el siguiente Pokémon -->
+    <div class="flecha cambiar-pokemon-btn" (click)="siguientePokemon()">
+        &#9654; <!-- Símbolo de flecha derecha -->
+    </div>
+</div>
